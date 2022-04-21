@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+  background-color: #270237;
+  background-image: url("stars.bd7e51c0.svg"), url("bg.6b392238.svg");
+  background-position: bottom, bottom;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+body {
+  max-width: 600px;
+  color: #dfdfdf;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Ubuntu Mono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  font-size: 24px;
+  position: relative;
+}
+
+body:before {
+  content: "";
+  width: 100px;
+  height: 200px;
+  background-image: url("asteriod2.644803cf.svg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  position: absolute;
+  left: -150px;
+}
+
+body:after {
+  content: "";
+  width: 100px;
+  height: 200px;
+  background-image: url("asteriod1.c379addf.svg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  position: absolute;
+  top: 200px;
+  right: -150px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+strong {
+  color: #fff;
+}
+
+a {
+  color: #f47d20;
+}
+
+.more {
+  font-size: 80%;
+}
+
+.is-hazard .hazard {
+  color: red;
+  padding: 2px 4px;
+  font-weight: bold;
+  animation: hazard 1s infinite;
+}
+
+hr, .no-hazard, .is-hazard {
+  border: none;
+  border-bottom: 4px solid #b077c8;
+}
+
+@keyframes hazard {
+  0% {
+    color: red;
+    background: inherit;
+  }
+
+  50% {
+    color: inherit;
+    background: red;
+  }
+
+  51% {
+    color: red;
+    background: inherit;
+  }
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */
